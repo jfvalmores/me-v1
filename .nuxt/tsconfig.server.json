@@ -1,0 +1,70 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "/Users/justine/projects/me/my-nuxt-app/.nuxt/types/nitro-imports"
+      ],
+      "#paths": [
+        "/Users/justine/projects/me/my-nuxt-app/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "/Users/justine/projects/me/my-nuxt-app"
+      ],
+      "~/*": [
+        "/Users/justine/projects/me/my-nuxt-app/*"
+      ],
+      "@": [
+        "/Users/justine/projects/me/my-nuxt-app"
+      ],
+      "@/*": [
+        "/Users/justine/projects/me/my-nuxt-app/*"
+      ],
+      "~~": [
+        "/Users/justine/projects/me/my-nuxt-app"
+      ],
+      "~~/*": [
+        "/Users/justine/projects/me/my-nuxt-app/*"
+      ],
+      "@@": [
+        "/Users/justine/projects/me/my-nuxt-app"
+      ],
+      "@@/*": [
+        "/Users/justine/projects/me/my-nuxt-app/*"
+      ],
+      "assets": [
+        "/Users/justine/projects/me/my-nuxt-app/assets"
+      ],
+      "assets/*": [
+        "/Users/justine/projects/me/my-nuxt-app/assets/*"
+      ],
+      "public": [
+        "/Users/justine/projects/me/my-nuxt-app/public"
+      ],
+      "public/*": [
+        "/Users/justine/projects/me/my-nuxt-app/public/*"
+      ],
+      "#auth": [
+        "/Users/justine/projects/me/my-nuxt-app/node_modules/@sidebase/nuxt-auth/dist/runtime/server/services"
+      ],
+      "#auth/*": [
+        "/Users/justine/projects/me/my-nuxt-app/node_modules/@sidebase/nuxt-auth/dist/runtime/server/services/*"
+      ]
+    }
+  },
+  "include": [
+    "/Users/justine/projects/me/my-nuxt-app/.nuxt/types/nitro-nuxt.d.ts",
+    "./types/nitro.d.ts",
+    "../**/*",
+    "../server/**/*"
+  ]
+}
