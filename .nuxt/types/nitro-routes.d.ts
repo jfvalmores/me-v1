@@ -6,6 +6,9 @@ declare module 'nitropack' {
     '/api/auth/**': {
       'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/auth/[...]').default>>>>
     }
+    '/api/me': {
+      'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/me.get').default>>>>
+    }
     '/__nuxt_error': {
       'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/nuxt/dist/core/runtime/nitro/renderer').default>>>>
     }

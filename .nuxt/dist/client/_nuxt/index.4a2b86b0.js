@@ -1,0 +1,1 @@
+import{d as a,z as n,l as s,k as o}from"./entry.2afee8b7.js";const d=a({__name:"index",setup(l){const{status:e,data:t}=n();return console.log("!!! ",{status:e.value,data:t.value}),(_,u)=>(o(),s("div",null,"Hello world"))}});export{d as default};

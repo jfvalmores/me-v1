@@ -34,13 +34,7 @@ declare module 'nuxt/schema' {
          enableRefreshOnWindowFocus: boolean,
       },
 
-      globalAppMiddleware: {
-         isEnabled: boolean,
-
-         allow404WithoutAuth: boolean,
-
-         addDefaultCallbackUrl: boolean,
-      },
+      globalAppMiddleware: boolean,
 
       provider: {
          type: string,
